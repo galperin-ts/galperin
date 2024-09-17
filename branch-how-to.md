@@ -6,3 +6,7 @@ foo@bar: ~$ git branch branchname
 ```console
 foo@bar: ~$ git checkout branchname
 ``` 
+3. Отправить ветку на сервер
+```console 
+foo@bar: ~$ git push origin branchname
+```
