@@ -3,7 +3,8 @@
 ```console
 foo@bar:~$ ssh-keygen -t ed25519 -C "email@example.com"
 ```
-Создадутся два ключа: ex и ex.pub
+Будут созданы два ключа: ex и ex.pub
+
 2. Добавление ключа
 ```console
 foo@bar:~$ eval "$(ssh-agent -s)"
